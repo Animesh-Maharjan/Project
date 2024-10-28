@@ -1,0 +1,208 @@
+
+body{
+    
+    background: whitesmoke;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.first{
+    position: relative;
+    width: 75%;
+    height: 100vh;
+
+}
+
+nav{
+    display: flex;
+    width: 1225px;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.logo{
+    height:8%;
+    width: 10%;;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+span{
+    color: black;
+}
+
+.detail p{
+    color: #555;
+    line-height: 22px;
+    font-size:20px ;
+}
+
+.detail a{
+    background: #212121;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 8px;
+}
+
+.images{
+    width:40%;
+    height: 80%;
+    position: absolute;
+    bottom:0;
+    right:-315px;
+    
+}
+.me{
+    padding-top: 60px;
+}
+
+
+.second{
+    position: relative;
+    width: 75%;
+    height: 100vh;
+    margin-top: 27%;
+    margin-left: 5%;
+    margin-right: 10%;
+    
+
+}
+
+.education{
+    display: grid;
+    color: black;
+  }
+
+.education h1{
+    font-size: 50px;
+    margin: 20px 35px;
+  }
+  .container{
+    display: grid;
+    width: 110%;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px 40px;
+    align-items: center;
+    text-align: center;
+  }
+  .container .left .school{
+    width: 10vw;
+    height: 10vw;
+    margin: 40px 30px 20px 20px;
+    object-fit: cover;
+  }
+  .container .right p{
+    font-size: 1.5vw;
+    margin-top: -1.8vw ;
+    text-align: justify;
+  }
+  .container .left .college{
+    width: 20vw;
+    height: 20vw;
+    margin: 40px 30px 20px 20px;
+  }
+  .container .left .clz{
+    margin: 40px 30px 20px 20px;
+  }
+
+.third{
+    position: relative;
+    width: 75%;
+    height: 100vh;
+    
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    height: 100vh;
+    padding: 10px 20px;
+    margin: 600px 10px 10px 320px;
+  }
+  .contact-section-header > h2 {
+    font-size: 50px;
+    color: #704545;
+  }
+
+  .contact-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8vw;
+  }
+  .contact-links a{
+    text-decoration: none;
+    color: #1f1212;
+    padding: 1vw;
+    font-size: 4vw;
+    transition: all 1s ease;
+  }
+  
+  .contact-links a:nth-of-type(1):hover{
+    transform: translateY(-10%);
+    color: #0a66c2ff;
+  }
+  
+  .contact-links a:nth-of-type(2):hover{
+    transform: translateY(-10%);
+    color: #0e8ef1ff;
+  }
+  .contact-links a:nth-of-type(3):hover{
+    transform: translateY(-10%);
+    background: linear-gradient(to right, #FD1D1D, #C13584, #833AB4, #405DE6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .contact-links a:nth-of-type(4):hover{
+    transform: translateY(-10%);
+    color: #c5221fff;
+  }
+.footer{
+   text-align: center ;
+   font-size: 15px;
+   background-color: #333;
+   color: #fff;
+   width: 100%;
+   border-radius: 8px;
+  }
